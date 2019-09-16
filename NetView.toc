@@ -1,0 +1,51 @@
+## Interface: 80200
+## Title: NetView
+## Notes: Shows FPS, Latency, AddOn Memory
+## Notes-deDE: Shows FPS, Latency, AddOn Memory
+## Notes-esES: Shows FPS, Latency, AddOn Memory
+## Notes-esMX: Shows FPS, Latency, AddOn Memory
+## Notes-frFR: Shows FPS, Latency, AddOn Memory
+## Notes-itIT: Shows FPS, Latency, AddOn Memory
+## Notes-koKR: Shows FPS, Latency, AddOn Memory
+## Notes-ptBR: Shows FPS, Latency, AddOn Memory
+## Notes-ruRU: Shows FPS, Latency, AddOn Memory
+## Notes-zhCN: Shows FPS, Latency, AddOn Memory
+## Notes-zhTW: Shows FPS, Latency, AddOn Memory
+## Author: Gendr
+## Version: 1.6
+
+## X-Category: Miscellaneous
+## X-Website: https://github.com/Gendr/NetView
+## X-Curse-Project-ID: 301418
+## X-WoWI-ID: 24783
+
+## SavedVariables: NetViewDB
+## OptionalDeps: Ace3, LibSharedMedia-3.0, AceGUI-3.0-SharedMediaWidgets
+
+#@no-lib-strip@
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+
+Libs\AceAddon-3.0\AceAddon-3.0.xml
+Libs\AceDB-3.0\AceDB-3.0.xml
+Libs\AceDBOptions-3.0\AceDBOptions-3.0.xml
+Libs\AceLocale-3.0\AceLocale-3.0.xml
+Libs\AceGUI-3.0\AceGUI-3.0.xml
+Libs\AceConfig-3.0\AceConfig-3.0.xml
+
+Libs\AceGUI-3.0-SharedMediaWidgets\widget.xml
+Libs\LibSharedMedia-3.0\lib.xml
+#@end-no-lib-strip@
+
+Locales\enUS.lua
+
+NetView.lua
+Options.lua
+
+Plugins\Print.lua
+Plugins\Sounds.lua
+
+Modules\FPS.lua
+Modules\Latency.lua
+Modules\Memory.lua
+Modules\Tooltip.lua
