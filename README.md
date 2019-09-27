@@ -1,6 +1,6 @@
 # NetView
-![release](https://github.com/Gendr/NetView/releases)
-![issues](https://github.com/Gendr/NetView/issues)
+[![release]](https://github.com/Gendr/NetView/releases)
+[![issues]](https://github.com/Gendr/NetView/issues)
 
 Shows FPS, Latency, AddOn Memory for World of Warcraft.
 
